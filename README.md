@@ -1,5 +1,3 @@
-# Abnormal File Vault
-
 A Django-based file management application designed for efficient file handling, storage optimization through deduplication, and intelligent search capabilities.
 
 ## 🎯 Features Implemented
@@ -333,24 +331,6 @@ Before deploying to production:
 - [ ] Configure backup strategy
 - [ ] Add virus scanning for uploads
 
-## 📦 Project Submission
-
-To create the submission zip file:
-
-```bash
-# Ensure you're in the project root
-cd /path/to/dplat-file-vault-coding-challenge
-
-# Activate virtual environment
-cd backend
-source venv/bin/activate
-
-# Return to project root and run submission script
-cd ..
-python create_submission_zip.py
-```
-
-The script will create a file named `username_YYYYMMDD.zip` ready for submission.
 
 ## ✅ Features Checklist
 
@@ -372,27 +352,3 @@ The script will create a file named `username_YYYYMMDD.zip` ready for submission
 - [x] Comprehensive documentation
 - [x] Automated test scripts
 
-## 🎓 Development Approach
-
-This project was developed following best practices:
-- **SOLID principles** for maintainable code
-- **DRY (Don't Repeat Yourself)** for code reusability
-- **Performance optimization** with database indexing
-- **Security-first** approach with proper isolation
-- **Production-ready** architecture
-- **Comprehensive testing** and documentation
-
-## 📞 Support
-
-For issues or questions:
-1. Check the [TESTING_GUIDE.md](TESTING_GUIDE.md) for common scenarios
-2. Review [IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md) for technical details
-3. Check the troubleshooting section above
-
-## 📄 License
-
-This project is part of the Abnormal Security coding challenge.
-
----
-
-**Built with ❤️ using Django, DRF, and AI-powered development tools**
